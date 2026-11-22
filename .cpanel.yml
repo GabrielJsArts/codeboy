@@ -1,9 +1,0 @@
----
-deployment:
-  tasks:
-    # Reemplaza /home/USUARIO/codeboy.totalmarketing.top/ por la ruta exacta (Document Root) de tu dominio en cPanel
-    - export DEPLOYPATH=/home/USUARIO/codeboy.totalmarketing.top/
-    - /bin/mkdir -p $DEPLOYPATH
-    - /bin/cp -f index.html $DEPLOYPATH
-    - /bin/cp -f .htaccess $DEPLOYPATH
-    - /bin/cp -Rf assets $DEPLOYPATH
